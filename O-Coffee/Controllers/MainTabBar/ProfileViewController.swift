@@ -6,22 +6,36 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class ProfileViewController: UIViewController,  UIScrollViewDelegate, CALayerDelegate{
     
     //User Info Variables
     
-    var username = "CoffeeLover"
-    var coffeeCoins = 0
+    var CurrentUsername = "" {
+        didSet {
+            UserNameLabel.text = CurrentUsername
+        }
+    }
+    var coffeeCoins = 0 {
+        didSet {
+            CoffeeCoinsCountLabel.text = "Coins: \(coffeeCoins)"
+        }
+    }
+    
+    //CARD
     
     @IBOutlet weak var BonusesView: RoundedView!
     @IBOutlet weak var NameView: RoundedView!
     
-    //Card Labels
     @IBOutlet weak var CoffeeCoinsCountLabel: UILabel!
     @IBOutlet weak var UserNameLabel: UILabel!
     
     private var NameCardIsShowed = true
+    
+    private var CardIsShowed = true
+    
+    
     
     @IBOutlet weak var ScrollView: UIScrollView!
     
@@ -29,6 +43,7 @@ class ProfileViewController: UIViewController,  UIScrollViewDelegate, CALayerDel
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        loadData()
         ScrollView.delegate = self
         gradient = CAGradientLayer()
         gradient.colors = [UIColor.clear.cgColor, UIColor.black.cgColor]
@@ -36,6 +51,31 @@ class ProfileViewController: UIViewController,  UIScrollViewDelegate, CALayerDel
         gradient.delegate = self
         ScrollView.layer.mask = gradient
         setupCardView()
+    }
+    
+    private func loadData(){
+        guard let userId = Auth.auth().currentUser?.uid  else {
+            return
+        }
+        RTDataBaseManager.shared.fetchUserData(userId: userId) { result in
+            switch result {
+            case .success(let userData):
+                if let userData = userData {
+                    if let username = userData["username"] as? String {
+                        self.CurrentUsername = username
+                    }
+                    if let coins = userData["coins"] as? Int {
+                        self.coffeeCoins = coins
+                    }
+                } else {
+                    // User data not found
+                    print("User data not found")
+                }
+            case .failure(let error):
+                // Handle error
+                print("Error fetching user data: \(error.localizedDescription)")
+            }
+        }
     }
     
     //MARK: - Card View
@@ -49,7 +89,7 @@ class ProfileViewController: UIViewController,  UIScrollViewDelegate, CALayerDel
     }
     
     func setupCardLabels(){
-        UserNameLabel.text = username
+        UserNameLabel.text = CurrentUsername
         CoffeeCoinsCountLabel.text = "Coins:  \(coffeeCoins)"
     }
     
@@ -59,6 +99,7 @@ class ProfileViewController: UIViewController,  UIScrollViewDelegate, CALayerDel
                 UIView.transition(with: self.BonusesView, duration: 0.5, options: .transitionFlipFromRight, animations: {
                     self.NameView.layer.zPosition = 0
                     self.BonusesView.layer.zPosition = 1
+                    self.NameCardIsShowed = false
                 }, completion: {_ in
                 })
             }, completion: nil)
@@ -67,12 +108,13 @@ class ProfileViewController: UIViewController,  UIScrollViewDelegate, CALayerDel
                 UIView.transition(with: self.BonusesView, duration: 0.5, options: .transitionFlipFromRight, animations: {
                     self.NameView.layer.zPosition = 1
                     self.BonusesView.layer.zPosition = 0
+                    self.NameCardIsShowed = true
                 }, completion: {_ in
                 })
             }, completion: nil)
         }
-        NameCardIsShowed.toggle()
     }
+    
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
@@ -95,19 +137,6 @@ class ProfileViewController: UIViewController,  UIScrollViewDelegate, CALayerDel
             height: ScrollView.bounds.height
         )
     }
-}
-
-extension ProfileViewController: UICollectionViewDelegate, UICollectionViewDataSource {
-    
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 3
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        return UICollectionViewCell()
-    }
-    
-    
 }
 
 

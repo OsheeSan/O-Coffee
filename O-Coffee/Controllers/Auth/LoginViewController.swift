@@ -6,24 +6,35 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class LoginViewController: UIViewController {
 
+    @IBOutlet weak var EmailTextField: UITextField!
+    
+    @IBOutlet weak var PasswordTextField: UITextField!
+    
+    
+    @IBAction func SignInButtonTapped(_ sender: RoundedButton) {
+        Auth.auth().signIn(withEmail: self.EmailTextField.text!, password: self.PasswordTextField.text!) { response, error in
+            guard error == nil else {
+                return
+            }
+            self.dismiss(animated: true)
+        }
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        let tap = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
+        view.addGestureRecognizer(tap)
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
     }
-    */
 
 }

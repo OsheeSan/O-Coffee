@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class QRCodeViewController: UIViewController {
 
@@ -15,7 +16,14 @@ class QRCodeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let QRimage = generateQRCode(from: "USER-4128249835yrdc")
+        self.QRCodeImageView.alpha = 0
+        guard let userId = Auth.auth().currentUser?.uid else {
+            return
+        }
+        UIView.animate(withDuration: 1, animations: {
+            self.QRCodeImageView.alpha = 1
+        })
+        let QRimage = generateQRCode(from: userId)
         self.QRCodeImageView.image = QRimage
         
     }

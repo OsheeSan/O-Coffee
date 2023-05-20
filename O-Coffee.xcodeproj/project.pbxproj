@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CC6F75B82265884B850911E /* Pods_O_Coffee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 065B2336E006A33E0056F218 /* Pods_O_Coffee.framework */; };
 		840A2FD32A05936D007C54A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A2FD22A05936D007C54A8 /* AppDelegate.swift */; };
 		840A2FD52A05936D007C54A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A2FD42A05936D007C54A8 /* SceneDelegate.swift */; };
 		840A2FDA2A05936D007C54A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840A2FD82A05936D007C54A8 /* Main.storyboard */; };
@@ -22,10 +23,19 @@
 		840A2FFC2A05C4D9007C54A8 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A2FFB2A05C4D9007C54A8 /* RoundedView.swift */; };
 		840A2FFE2A05C7D5007C54A8 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A2FFD2A05C7D5007C54A8 /* GradientView.swift */; };
 		840A30002A05CB88007C54A8 /* RoundedScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A2FFF2A05CB88007C54A8 /* RoundedScrollView.swift */; };
+		849D5CF32A064D0000A0DD21 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D5CF22A064D0000A0DD21 /* MapViewController.swift */; };
+		849F787E2A16AA6C00A18966 /* RTDataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F787D2A16AA6C00A18966 /* RTDataBaseManager.swift */; };
+		849F78802A16B23600A18966 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 849F787F2A16B23600A18966 /* GoogleService-Info.plist */; };
+		849F78822A176A3A00A18966 /* Cafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F78812A176A3A00A18966 /* Cafe.swift */; };
+		849F78852A18E8DF00A18966 /* Vibration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F78842A18E8DF00A18966 /* Vibration.swift */; };
+		849F78872A18EC5800A18966 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F78862A18EC5800A18966 /* Coffee.swift */; };
 		84F4A1902A05E97700E377AF /* RoundedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4A18F2A05E97700E377AF /* RoundedImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		065B2336E006A33E0056F218 /* Pods_O_Coffee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_O_Coffee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52CEF44521CE2153019977F7 /* Pods-O-Coffee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-O-Coffee.debug.xcconfig"; path = "Target Support Files/Pods-O-Coffee/Pods-O-Coffee.debug.xcconfig"; sourceTree = "<group>"; };
+		7585C1B1B0195EF05DD99CCA /* Pods-O-Coffee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-O-Coffee.release.xcconfig"; path = "Target Support Files/Pods-O-Coffee/Pods-O-Coffee.release.xcconfig"; sourceTree = "<group>"; };
 		840A2FCF2A05936D007C54A8 /* O-Coffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "O-Coffee.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		840A2FD22A05936D007C54A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		840A2FD42A05936D007C54A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +53,12 @@
 		840A2FFB2A05C4D9007C54A8 /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
 		840A2FFD2A05C7D5007C54A8 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		840A2FFF2A05CB88007C54A8 /* RoundedScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedScrollView.swift; sourceTree = "<group>"; };
+		849D5CF22A064D0000A0DD21 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		849F787D2A16AA6C00A18966 /* RTDataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTDataBaseManager.swift; sourceTree = "<group>"; };
+		849F787F2A16B23600A18966 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		849F78812A176A3A00A18966 /* Cafe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cafe.swift; sourceTree = "<group>"; };
+		849F78842A18E8DF00A18966 /* Vibration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vibration.swift; sourceTree = "<group>"; };
+		849F78862A18EC5800A18966 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
 		84F4A18F2A05E97700E377AF /* RoundedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -51,17 +67,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CC6F75B82265884B850911E /* Pods_O_Coffee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AEF9DAAD2C3850E55A8735C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52CEF44521CE2153019977F7 /* Pods-O-Coffee.debug.xcconfig */,
+				7585C1B1B0195EF05DD99CCA /* Pods-O-Coffee.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3CCB67E9E84575356A787471 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				065B2336E006A33E0056F218 /* Pods_O_Coffee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		840A2FC62A05936D007C54A8 = {
 			isa = PBXGroup;
 			children = (
 				840A2FD12A05936D007C54A8 /* O-Coffee */,
 				840A2FD02A05936D007C54A8 /* Products */,
+				3AEF9DAAD2C3850E55A8735C /* Pods */,
+				3CCB67E9E84575356A787471 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +118,8 @@
 				840A2FE72A059380007C54A8 /* Views */,
 				840A2FE62A059375007C54A8 /* Controllers */,
 				840A2FE02A05936E007C54A8 /* Info.plist */,
+				849F787F2A16B23600A18966 /* GoogleService-Info.plist */,
+				849F78842A18E8DF00A18966 /* Vibration.swift */,
 			);
 			path = "O-Coffee";
 			sourceTree = "<group>";
@@ -91,6 +129,7 @@
 			children = (
 				840A2FF62A0597AC007C54A8 /* MainTabBar */,
 				840A2FF32A059415007C54A8 /* Auth */,
+				849D5CF22A064D0000A0DD21 /* MapViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -113,6 +152,7 @@
 		840A2FE82A059394007C54A8 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				849F787D2A16AA6C00A18966 /* RTDataBaseManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -120,6 +160,8 @@
 		840A2FE92A05939E007C54A8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				849F78812A176A3A00A18966 /* Cafe.swift */,
+				849F78862A18EC5800A18966 /* Coffee.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -160,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 840A2FE32A05936E007C54A8 /* Build configuration list for PBXNativeTarget "O-Coffee" */;
 			buildPhases = (
+				281C39BA0A8DF4134909794A /* [CP] Check Pods Manifest.lock */,
 				840A2FCB2A05936D007C54A8 /* Sources */,
 				840A2FCC2A05936D007C54A8 /* Frameworks */,
 				840A2FCD2A05936D007C54A8 /* Resources */,
+				6BAD9116E509C060F4629807 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -197,6 +241,8 @@
 				Base,
 			);
 			mainGroup = 840A2FC62A05936D007C54A8;
+			packageReferences = (
+			);
 			productRefGroup = 840A2FD02A05936D007C54A8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -211,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849F78802A16B23600A18966 /* GoogleService-Info.plist in Resources */,
 				840A2FDF2A05936E007C54A8 /* LaunchScreen.storyboard in Resources */,
 				840A2FDC2A05936E007C54A8 /* Assets.xcassets in Resources */,
 				840A2FDA2A05936D007C54A8 /* Main.storyboard in Resources */,
@@ -219,6 +266,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		281C39BA0A8DF4134909794A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-O-Coffee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BAD9116E509C060F4629807 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-O-Coffee/Pods-O-Coffee-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-O-Coffee/Pods-O-Coffee-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-O-Coffee/Pods-O-Coffee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		840A2FCB2A05936D007C54A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -226,8 +315,12 @@
 			files = (
 				840A2FF22A059411007C54A8 /* QRCodeViewController.swift in Sources */,
 				840A2FF52A0594C5007C54A8 /* WelcomeViewController.swift in Sources */,
+				849F787E2A16AA6C00A18966 /* RTDataBaseManager.swift in Sources */,
 				840A2FFE2A05C7D5007C54A8 /* GradientView.swift in Sources */,
+				849F78822A176A3A00A18966 /* Cafe.swift in Sources */,
+				849F78872A18EC5800A18966 /* Coffee.swift in Sources */,
 				840A2FEC2A0593DB007C54A8 /* LoginViewController.swift in Sources */,
+				849F78852A18E8DF00A18966 /* Vibration.swift in Sources */,
 				840A2FEE2A0593EB007C54A8 /* RegisterViewController.swift in Sources */,
 				840A30002A05CB88007C54A8 /* RoundedScrollView.swift in Sources */,
 				840A2FFA2A05C2EF007C54A8 /* RoundedButton.swift in Sources */,
@@ -237,6 +330,7 @@
 				84F4A1902A05E97700E377AF /* RoundedImageView.swift in Sources */,
 				840A2FFC2A05C4D9007C54A8 /* RoundedView.swift in Sources */,
 				840A2FD52A05936D007C54A8 /* SceneDelegate.swift in Sources */,
+				849D5CF32A064D0000A0DD21 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +472,7 @@
 		};
 		840A2FE42A05936E007C54A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52CEF44521CE2153019977F7 /* Pods-O-Coffee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -386,11 +481,13 @@
 				DEVELOPMENT_TEAM = 3R4JNXS3X7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "O-Coffee/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Please, allow us get your Location to help you find a Cafe";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please, allow us get your Location to help you find a Cafe";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -406,6 +503,7 @@
 		};
 		840A2FE52A05936E007C54A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7585C1B1B0195EF05DD99CCA /* Pods-O-Coffee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -414,11 +512,13 @@
 				DEVELOPMENT_TEAM = 3R4JNXS3X7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "O-Coffee/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Please, allow us get your Location to help you find a Cafe";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please, allow us get your Location to help you find a Cafe";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

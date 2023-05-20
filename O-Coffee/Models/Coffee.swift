@@ -6,3 +6,17 @@
 //
 
 import Foundation
+
+class Coffee {
+    
+    var coffeeId: String
+    var name: String
+    var annotation: String
+    
+    init(coffeeId: String, name: String, annotation: String) {
+        self.coffeeId = coffeeId
+        self.name = name
+        self.annotation = annotation
+    }
+    
+}
