@@ -9,7 +9,7 @@ import UIKit
 import MapKit
 import CoreLocation
 
-class MapViewController: UIViewController, CLLocationManagerDelegate {
+class MapViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDelegate {
     
     let locationManager = CLLocationManager()
     
@@ -19,6 +19,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        mapView.register(CustomAnnotationView.self, forAnnotationViewWithReuseIdentifier: MKMapViewDefaultAnnotationViewReuseIdentifier)
         //        placemnarks()
         loadCafe()
         // Ask for Authorisation from the User.
@@ -50,7 +51,10 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
                         print("Cafe coordinates: \(cafe.coordinates)")
                         print("Cafe annotation: \(cafe.annotation)")
                         
-                        let annotation = MKPointAnnotation()
+                        let annotation = CustomAnnotation()
+                        var image = UIImage(named: "pin")
+                        image = image?.resizeImage(targetSize: CGSize(width: 70, height: 70))
+                        annotation.pinCustomImage = image
                         annotation.coordinate = CLLocationCoordinate2D(latitude: cafe.coordinates.latitude, longitude: cafe.coordinates.longitude)
                         annotation.title = cafe.name
                         annotation.subtitle = cafe.annotation
@@ -72,6 +76,45 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
         }
     }
     
+}
+
+extension UIImage {
+  func resizeImage(targetSize: CGSize) -> UIImage {
+    let size = self.size
+    let widthRatio  = targetSize.width  / size.width
+    let heightRatio = targetSize.height / size.height
+    let newSize = widthRatio > heightRatio ?  CGSize(width: size.width * heightRatio, height: size.height * heightRatio) : CGSize(width: size.width * widthRatio,  height: size.height * widthRatio)
+    let rect = CGRect(x: 0, y: 0, width: newSize.width, height: newSize.height)
+
+    UIGraphicsBeginImageContextWithOptions(newSize, false, 1.0)
+    self.draw(in: rect)
+    let newImage = UIGraphicsGetImageFromCurrentImageContext()
+    UIGraphicsEndImageContext()
+
+    return newImage!
+  }
+}
+
+class CustomAnnotation: MKPointAnnotation {
+    var pinCustomImage: UIImage!
+}
+
+class CustomAnnotationView: MKAnnotationView {
+    override init(annotation: MKAnnotation?, reuseIdentifier: String?) {
+        super.init(annotation: annotation, reuseIdentifier: reuseIdentifier)
+        canShowCallout = true
+        update(for: annotation)
+    }
+
+    override var annotation: MKAnnotation? { didSet { update(for: annotation) } }
+
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+
+    private func update(for annotation: MKAnnotation?) {
+        image = (annotation as? CustomAnnotation)?.pinCustomImage
+    }
 }
 
 private extension MKMapView {

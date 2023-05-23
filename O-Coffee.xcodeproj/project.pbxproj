@@ -23,6 +23,9 @@
 		840A2FFC2A05C4D9007C54A8 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A2FFB2A05C4D9007C54A8 /* RoundedView.swift */; };
 		840A2FFE2A05C7D5007C54A8 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A2FFD2A05C7D5007C54A8 /* GradientView.swift */; };
 		840A30002A05CB88007C54A8 /* RoundedScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A2FFF2A05CB88007C54A8 /* RoundedScrollView.swift */; };
+		844487222A1B4F01006748E0 /* CafeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844487212A1B4F01006748E0 /* CafeViewController.swift */; };
+		844487242A1B4F0D006748E0 /* CoffeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844487232A1B4F0D006748E0 /* CoffeeViewController.swift */; };
+		844487262A1CE396006748E0 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844487252A1CE396006748E0 /* PhotoCollectionViewCell.swift */; };
 		849D5CF32A064D0000A0DD21 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D5CF22A064D0000A0DD21 /* MapViewController.swift */; };
 		849F787E2A16AA6C00A18966 /* RTDataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F787D2A16AA6C00A18966 /* RTDataBaseManager.swift */; };
 		849F78802A16B23600A18966 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 849F787F2A16B23600A18966 /* GoogleService-Info.plist */; };
@@ -53,6 +56,9 @@
 		840A2FFB2A05C4D9007C54A8 /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
 		840A2FFD2A05C7D5007C54A8 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		840A2FFF2A05CB88007C54A8 /* RoundedScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedScrollView.swift; sourceTree = "<group>"; };
+		844487212A1B4F01006748E0 /* CafeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeViewController.swift; sourceTree = "<group>"; };
+		844487232A1B4F0D006748E0 /* CoffeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeViewController.swift; sourceTree = "<group>"; };
+		844487252A1CE396006748E0 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		849D5CF22A064D0000A0DD21 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		849F787D2A16AA6C00A18966 /* RTDataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTDataBaseManager.swift; sourceTree = "<group>"; };
 		849F787F2A16B23600A18966 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -119,7 +125,6 @@
 				840A2FE62A059375007C54A8 /* Controllers */,
 				840A2FE02A05936E007C54A8 /* Info.plist */,
 				849F787F2A16B23600A18966 /* GoogleService-Info.plist */,
-				849F78842A18E8DF00A18966 /* Vibration.swift */,
 			);
 			path = "O-Coffee";
 			sourceTree = "<group>";
@@ -127,6 +132,7 @@
 		840A2FE62A059375007C54A8 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				844487202A1B4EEA006748E0 /* InfoPages */,
 				840A2FF62A0597AC007C54A8 /* MainTabBar */,
 				840A2FF32A059415007C54A8 /* Auth */,
 				849D5CF22A064D0000A0DD21 /* MapViewController.swift */,
@@ -145,6 +151,7 @@
 				840A2FFD2A05C7D5007C54A8 /* GradientView.swift */,
 				840A2FFF2A05CB88007C54A8 /* RoundedScrollView.swift */,
 				84F4A18F2A05E97700E377AF /* RoundedImageView.swift */,
+				844487252A1CE396006748E0 /* PhotoCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -169,6 +176,7 @@
 		840A2FEA2A0593AC007C54A8 /* Resourses */ = {
 			isa = PBXGroup;
 			children = (
+				849F78882A1902EF00A18966 /* Enum */,
 				840A2FD22A05936D007C54A8 /* AppDelegate.swift */,
 				840A2FD42A05936D007C54A8 /* SceneDelegate.swift */,
 			);
@@ -193,6 +201,23 @@
 				840A2FF72A0597D8007C54A8 /* ProfileViewController.swift */,
 			);
 			path = MainTabBar;
+			sourceTree = "<group>";
+		};
+		844487202A1B4EEA006748E0 /* InfoPages */ = {
+			isa = PBXGroup;
+			children = (
+				844487212A1B4F01006748E0 /* CafeViewController.swift */,
+				844487232A1B4F0D006748E0 /* CoffeeViewController.swift */,
+			);
+			path = InfoPages;
+			sourceTree = "<group>";
+		};
+		849F78882A1902EF00A18966 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				849F78842A18E8DF00A18966 /* Vibration.swift */,
+			);
+			path = Enum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,9 +349,12 @@
 				840A2FEE2A0593EB007C54A8 /* RegisterViewController.swift in Sources */,
 				840A30002A05CB88007C54A8 /* RoundedScrollView.swift in Sources */,
 				840A2FFA2A05C2EF007C54A8 /* RoundedButton.swift in Sources */,
+				844487262A1CE396006748E0 /* PhotoCollectionViewCell.swift in Sources */,
 				840A2FF02A059401007C54A8 /* HomePageViewController.swift in Sources */,
+				844487242A1B4F0D006748E0 /* CoffeeViewController.swift in Sources */,
 				840A2FD32A05936D007C54A8 /* AppDelegate.swift in Sources */,
 				840A2FF82A0597D8007C54A8 /* ProfileViewController.swift in Sources */,
+				844487222A1B4F01006748E0 /* CafeViewController.swift in Sources */,
 				84F4A1902A05E97700E377AF /* RoundedImageView.swift in Sources */,
 				840A2FFC2A05C4D9007C54A8 /* RoundedView.swift in Sources */,
 				840A2FD52A05936D007C54A8 /* SceneDelegate.swift in Sources */,

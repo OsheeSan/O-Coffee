@@ -100,9 +100,26 @@ class HomePageViewController: UIViewController {
         super.viewDidLoad()
         loadData()
         tableView.backgroundColor = .clear
+        setupSegmentControl()
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        switch segue.identifier {
+        case "coffee":
+            break
+        case "cafe":
+            let controller = segue.destination as! CafeViewController
+            controller.cafeId = cafes[sender as! Int].cafeId
+            print(cafes[sender as! Int].cafeId)
+            break
+        default: break
+        }
+    }
+    
+    private func setupSegmentControl(){
         segmentControl.backgroundColor = .brown
-        segmentControl.setTitleTextAttributes([NSAttributedString.Key.foregroundColor : UIColor.white], for: .normal)
-        segmentControl.setTitleTextAttributes([NSAttributedString.Key.foregroundColor : UIColor.brown], for: .selected)
+        segmentControl.setTitleTextAttributes([NSAttributedString.Key.foregroundColor : UIColor.white, NSAttributedString.Key.font : UIFont(name: "Avenir Next Bold", size: 12) as Any], for: .normal)
+        segmentControl.setTitleTextAttributes([NSAttributedString.Key.foregroundColor : UIColor.brown, NSAttributedString.Key.font : UIFont(name: "Avenir Next Bold", size: 12) as Any], for: .selected)
     }
     
 }
@@ -139,7 +156,16 @@ extension HomePageViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-        print(cafes[indexPath.row].toString())
+        switch menuState {
+        case .cafe:
+            print("")
+            performSegue(withIdentifier: "cafe", sender: indexPath.row)
+            break
+        case .coffee:
+            print("")
+            performSegue(withIdentifier: "coffee", sender: indexPath.row)
+            break
+        }
     }
     
 }
