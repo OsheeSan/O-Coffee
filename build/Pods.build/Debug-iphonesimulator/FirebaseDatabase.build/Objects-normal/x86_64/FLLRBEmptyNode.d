@@ -1,0 +1,6 @@
+dependencies: \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseDatabase/FirebaseDatabase/Sources/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FLLRBEmptyNode.m \
+  /Applications/SwiftProjects/My/O-Coffee/build/Pods.build/Debug-iphonesimulator/FirebaseDatabase.build/module.modulemap \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseDatabase/FirebaseDatabase/Sources/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FLLRBEmptyNode.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseDatabase/FirebaseDatabase/Sources/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FLLRBNode.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseDatabase/FirebaseDatabase/Sources/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FLLRBValueNode.h

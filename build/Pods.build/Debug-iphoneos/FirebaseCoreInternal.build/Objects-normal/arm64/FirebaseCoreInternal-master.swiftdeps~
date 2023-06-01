@@ -1,0 +1,25 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "537f88f89876ea8cbbf9d7155f032c4245770eb8ccfc7474b11775873b18472b"
+build_start_time: [1685093263, 786264896]
+build_end_time: [1685093263, 850347995]
+inputs:
+  "/Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/Heartbeat.swift": !private [1684429787, 576103687]
+  ? "/Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatController.swift"
+  : !private [1684429787, 578484058]
+  ? "/Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatStorage.swift"
+  : !private [1684429787, 579486846]
+  ? "/Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatsBundle.swift"
+  : !private [1684429787, 579910039]
+  ? "/Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatsPayload.swift"
+  : !private [1684429787, 580999851]
+  ? "/Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/RingBuffer.swift"
+  : !private [1684429787, 576895713]
+  "/Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/Storage.swift": !private [1684429787, 575667142]
+  ? "/Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/StorageFactory.swift"
+  : !private [1684429787, 581451416]
+  ? "/Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/WeakContainer.swift"
+  : !private [1684429787, 580541133]
+  ? "/Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/_ObjC_HeartbeatController.swift"
+  : !private [1684429787, 577779293]
+  ? "/Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/_ObjC_HeartbeatsPayload.swift"
+  : !private [1684429787, 579009294]

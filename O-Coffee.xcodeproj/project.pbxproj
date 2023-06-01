@@ -23,9 +23,13 @@
 		840A2FFC2A05C4D9007C54A8 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A2FFB2A05C4D9007C54A8 /* RoundedView.swift */; };
 		840A2FFE2A05C7D5007C54A8 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A2FFD2A05C7D5007C54A8 /* GradientView.swift */; };
 		840A30002A05CB88007C54A8 /* RoundedScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A2FFF2A05CB88007C54A8 /* RoundedScrollView.swift */; };
+		843D71E42A20CA2600FAB9DD /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843D71E32A20CA2600FAB9DD /* StorageManager.swift */; };
 		844487222A1B4F01006748E0 /* CafeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844487212A1B4F01006748E0 /* CafeViewController.swift */; };
 		844487242A1B4F0D006748E0 /* CoffeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844487232A1B4F0D006748E0 /* CoffeeViewController.swift */; };
 		844487262A1CE396006748E0 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844487252A1CE396006748E0 /* PhotoCollectionViewCell.swift */; };
+		8475A0612A28C7CD00D35FF3 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8475A0602A28C7CD00D35FF3 /* Menu.swift */; };
+		8475A0632A28C80200D35FF3 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8475A0622A28C80200D35FF3 /* MenuItem.swift */; };
+		8475A0652A28D11800D35FF3 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8475A0642A28D11800D35FF3 /* MenuViewController.swift */; };
 		849D5CF32A064D0000A0DD21 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D5CF22A064D0000A0DD21 /* MapViewController.swift */; };
 		849F787E2A16AA6C00A18966 /* RTDataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F787D2A16AA6C00A18966 /* RTDataBaseManager.swift */; };
 		849F78802A16B23600A18966 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 849F787F2A16B23600A18966 /* GoogleService-Info.plist */; };
@@ -56,9 +60,13 @@
 		840A2FFB2A05C4D9007C54A8 /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
 		840A2FFD2A05C7D5007C54A8 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		840A2FFF2A05CB88007C54A8 /* RoundedScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedScrollView.swift; sourceTree = "<group>"; };
+		843D71E32A20CA2600FAB9DD /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		844487212A1B4F01006748E0 /* CafeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeViewController.swift; sourceTree = "<group>"; };
 		844487232A1B4F0D006748E0 /* CoffeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeViewController.swift; sourceTree = "<group>"; };
 		844487252A1CE396006748E0 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		8475A0602A28C7CD00D35FF3 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		8475A0622A28C80200D35FF3 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		8475A0642A28D11800D35FF3 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		849D5CF22A064D0000A0DD21 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		849F787D2A16AA6C00A18966 /* RTDataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTDataBaseManager.swift; sourceTree = "<group>"; };
 		849F787F2A16B23600A18966 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -160,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				849F787D2A16AA6C00A18966 /* RTDataBaseManager.swift */,
+				843D71E32A20CA2600FAB9DD /* StorageManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -169,6 +178,8 @@
 			children = (
 				849F78812A176A3A00A18966 /* Cafe.swift */,
 				849F78862A18EC5800A18966 /* Coffee.swift */,
+				8475A0602A28C7CD00D35FF3 /* Menu.swift */,
+				8475A0622A28C80200D35FF3 /* MenuItem.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -208,6 +219,7 @@
 			children = (
 				844487212A1B4F01006748E0 /* CafeViewController.swift */,
 				844487232A1B4F0D006748E0 /* CoffeeViewController.swift */,
+				8475A0642A28D11800D35FF3 /* MenuViewController.swift */,
 			);
 			path = InfoPages;
 			sourceTree = "<group>";
@@ -351,12 +363,16 @@
 				840A2FFA2A05C2EF007C54A8 /* RoundedButton.swift in Sources */,
 				844487262A1CE396006748E0 /* PhotoCollectionViewCell.swift in Sources */,
 				840A2FF02A059401007C54A8 /* HomePageViewController.swift in Sources */,
+				843D71E42A20CA2600FAB9DD /* StorageManager.swift in Sources */,
+				8475A0612A28C7CD00D35FF3 /* Menu.swift in Sources */,
 				844487242A1B4F0D006748E0 /* CoffeeViewController.swift in Sources */,
+				8475A0652A28D11800D35FF3 /* MenuViewController.swift in Sources */,
 				840A2FD32A05936D007C54A8 /* AppDelegate.swift in Sources */,
 				840A2FF82A0597D8007C54A8 /* ProfileViewController.swift in Sources */,
 				844487222A1B4F01006748E0 /* CafeViewController.swift in Sources */,
 				84F4A1902A05E97700E377AF /* RoundedImageView.swift in Sources */,
 				840A2FFC2A05C4D9007C54A8 /* RoundedView.swift in Sources */,
+				8475A0632A28C80200D35FF3 /* MenuItem.swift in Sources */,
 				840A2FD52A05936D007C54A8 /* SceneDelegate.swift in Sources */,
 				849D5CF32A064D0000A0DD21 /* MapViewController.swift in Sources */,
 			);
@@ -504,6 +520,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3R4JNXS3X7;
@@ -523,6 +541,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Toshee.O-Coffee";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -535,6 +554,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3R4JNXS3X7;
@@ -554,6 +575,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Toshee.O-Coffee";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

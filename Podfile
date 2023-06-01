@@ -9,5 +9,6 @@ target 'O-Coffee' do
 pod 'FirebaseAuth'
 pod 'FirebaseFirestore'
 pod 'FirebaseDatabase'
+pod 'FirebaseStorage'
 
 end

@@ -106,10 +106,14 @@ class HomePageViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         switch segue.identifier {
         case "coffee":
+            let controller = segue.destination as! CoffeeViewController
+            controller.coffeeID = coffies[sender as! Int].coffeeId
+            print(coffies[sender as! Int].coffeeId)
             break
         case "cafe":
             let controller = segue.destination as! CafeViewController
             controller.cafeId = cafes[sender as! Int].cafeId
+            controller.cafe = cafes[sender as! Int]
             print(cafes[sender as! Int].cafeId)
             break
         default: break

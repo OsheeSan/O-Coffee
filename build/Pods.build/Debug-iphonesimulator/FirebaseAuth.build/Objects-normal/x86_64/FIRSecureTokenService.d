@@ -1,0 +1,36 @@
+dependencies: \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseAuth/Sources/SystemService/FIRSecureTokenService.m \
+  /Applications/SwiftProjects/My/O-Coffee/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/module.modulemap \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseAuth/Sources/SystemService/FIRSecureTokenService.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuth.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthAPNSTokenType.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthErrors.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseAuth/Sources/Auth/FIRAuthSerialTaskQueue.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseAuth/Sources/Auth/FIRAuthTokenResult_Internal.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthTokenResult.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseAuth/Sources/Auth/FIRAuth_Internal.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseAuth/Interop/FIRAuthInterop.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseCore/Extension/FIRLogger.h \
+  /Applications/SwiftProjects/My/O-Coffee/build/Pods.build/Debug-iphonesimulator/FirebaseCore.build/module.modulemap \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRVersion.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIROptions.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FirebaseCore.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRLoggerLevel.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRConfiguration.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRApp.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/Target\ Support\ Files/FirebaseCore/FirebaseCore-umbrella.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/FIRAuthBackend.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/FIRAuthRPCRequest.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/FIRAuthRPCResponse.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/FIRAuthRequestConfiguration.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/RPC/FIRSecureTokenRequest.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/RPC/FIRSecureTokenResponse.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseCore/Extension/FirebaseCoreInternal.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseCore/Extension/FIRAppInternal.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseCore/Extension/FIRComponent.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseCore/Extension/FIRComponentContainer.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseCore/Extension/FIRComponentType.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseCore/Extension/FIRDependency.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseCore/Extension/FIRHeartbeatLogger.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseCore/Extension/FIRLibrary.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseCore/Extension/FIROptionsInternal.h

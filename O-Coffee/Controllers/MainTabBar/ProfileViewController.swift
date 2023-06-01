@@ -7,8 +7,26 @@
 
 import UIKit
 import FirebaseAuth
+import MessageUI
 
-class ProfileViewController: UIViewController,  UIScrollViewDelegate, CALayerDelegate{
+class ProfileViewController: UIViewController,  UIScrollViewDelegate, CALayerDelegate, MFMailComposeViewControllerDelegate {
+    
+    func sendEmail() {
+        if MFMailComposeViewController.canSendMail() {
+            let mail = MFMailComposeViewController()
+            mail.mailComposeDelegate = self
+            mail.setToRecipients(["antonbabko39@gmail.com"])
+            mail.setMessageBody("<p>You're so awesome!</p>", isHTML: true)
+
+            present(mail, animated: true)
+        } else {
+            // show failure alert
+        }
+    }
+
+    func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
+        controller.dismiss(animated: true)
+    }
     
     //User Info Variables
     
@@ -43,6 +61,7 @@ class ProfileViewController: UIViewController,  UIScrollViewDelegate, CALayerDel
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        sendEmail()
         loadData()
         ScrollView.delegate = self
         gradient = CAGradientLayer()

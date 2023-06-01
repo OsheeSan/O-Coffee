@@ -1,0 +1,32 @@
+dependencies: \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/gRPC-C++/src/cpp/common/auth_property_iterator.cc \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/Target\ Support\ Files/gRPC-C++/gRPC-C++-prefix.pch \
+  /Applications/SwiftProjects/My/O-Coffee/build/Debug-iphoneos/gRPC-Core/grpc.framework/Headers/grpc_security.h \
+  /Applications/SwiftProjects/My/O-Coffee/build/Debug-iphoneos/gRPC-Core/grpc.framework/Headers/support/port_platform.h \
+  /Applications/SwiftProjects/My/O-Coffee/build/Debug-iphoneos/gRPC-Core/grpc.framework/Headers/impl/codegen/port_platform.h \
+  /Applications/SwiftProjects/My/O-Coffee/build/Debug-iphoneos/gRPC-Core/grpc.framework/Headers/grpc.h \
+  /Applications/SwiftProjects/My/O-Coffee/build/Debug-iphoneos/gRPC-Core/grpc.framework/Headers/byte_buffer.h \
+  /Applications/SwiftProjects/My/O-Coffee/build/Debug-iphoneos/gRPC-Core/grpc.framework/Headers/impl/codegen/byte_buffer.h \
+  /Applications/SwiftProjects/My/O-Coffee/build/Debug-iphoneos/gRPC-Core/grpc.framework/Headers/impl/codegen/grpc_types.h \
+  /Applications/SwiftProjects/My/O-Coffee/build/Debug-iphoneos/gRPC-Core/grpc.framework/Headers/impl/codegen/compression_types.h \
+  /Applications/SwiftProjects/My/O-Coffee/build/Debug-iphoneos/gRPC-Core/grpc.framework/Headers/impl/codegen/gpr_types.h \
+  /Applications/SwiftProjects/My/O-Coffee/build/Debug-iphoneos/gRPC-Core/grpc.framework/Headers/impl/codegen/slice.h \
+  /Applications/SwiftProjects/My/O-Coffee/build/Debug-iphoneos/gRPC-Core/grpc.framework/Headers/impl/codegen/gpr_slice.h \
+  /Applications/SwiftProjects/My/O-Coffee/build/Debug-iphoneos/gRPC-Core/grpc.framework/Headers/impl/codegen/status.h \
+  /Applications/SwiftProjects/My/O-Coffee/build/Debug-iphoneos/gRPC-Core/grpc.framework/Headers/slice_buffer.h \
+  /Applications/SwiftProjects/My/O-Coffee/build/Debug-iphoneos/gRPC-Core/grpc.framework/Headers/slice.h \
+  /Applications/SwiftProjects/My/O-Coffee/build/Debug-iphoneos/gRPC-Core/grpc.framework/Headers/support/sync.h \
+  /Applications/SwiftProjects/My/O-Coffee/build/Debug-iphoneos/gRPC-Core/grpc.framework/Headers/impl/codegen/sync.h \
+  /Applications/SwiftProjects/My/O-Coffee/build/Debug-iphoneos/gRPC-Core/grpc.framework/Headers/impl/codegen/sync_generic.h \
+  /Applications/SwiftProjects/My/O-Coffee/build/Debug-iphoneos/gRPC-Core/grpc.framework/Headers/impl/codegen/atm.h \
+  /Applications/SwiftProjects/My/O-Coffee/build/Debug-iphoneos/gRPC-Core/grpc.framework/Headers/impl/codegen/atm_gcc_atomic.h \
+  /Applications/SwiftProjects/My/O-Coffee/build/Debug-iphoneos/gRPC-Core/grpc.framework/Headers/impl/codegen/sync_posix.h \
+  /Applications/SwiftProjects/My/O-Coffee/build/Debug-iphoneos/gRPC-Core/grpc.framework/Headers/impl/codegen/connectivity_state.h \
+  /Applications/SwiftProjects/My/O-Coffee/build/Debug-iphoneos/gRPC-Core/grpc.framework/Headers/impl/codegen/propagation_bits.h \
+  /Applications/SwiftProjects/My/O-Coffee/build/Debug-iphoneos/gRPC-Core/grpc.framework/Headers/status.h \
+  /Applications/SwiftProjects/My/O-Coffee/build/Debug-iphoneos/gRPC-Core/grpc.framework/Headers/support/time.h \
+  /Applications/SwiftProjects/My/O-Coffee/build/Debug-iphoneos/gRPC-Core/grpc.framework/Headers/grpc_security_constants.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/gRPC-C++/include/grpcpp/security/auth_context.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/gRPC-C++/include/grpcpp/impl/codegen/security/auth_context.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/gRPC-C++/include/grpcpp/impl/codegen/config.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/gRPC-C++/include/grpcpp/impl/codegen/string_ref.h

@@ -1,0 +1,35 @@
+dependencies: \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/abseil/absl/hash/internal/hash.cc \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/Target\ Support\ Files/abseil/abseil-prefix.pch \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/abseil/absl/hash/internal/hash.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/abseil/absl/base/config.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/abseil/absl/base/options.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/abseil/absl/base/policy_checks.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/abseil/absl/base/internal/unaligned_access.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/abseil/absl/base/attributes.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/abseil/absl/base/port.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/abseil/absl/base/optimization.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/abseil/absl/container/fixed_array.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/abseil/absl/algorithm/algorithm.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/abseil/absl/base/dynamic_annotations.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/abseil/absl/base/macros.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/abseil/absl/base/internal/dynamic_annotations.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/abseil/absl/base/internal/throw_delegate.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/abseil/absl/container/internal/compressed_tuple.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/abseil/absl/utility/utility.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/abseil/absl/base/internal/inline_variable.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/abseil/absl/base/internal/identity.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/abseil/absl/base/internal/invoke.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/abseil/absl/meta/type_traits.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/abseil/absl/memory/memory.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/abseil/absl/hash/internal/city.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/abseil/absl/hash/internal/low_level_hash.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/abseil/absl/numeric/int128.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/abseil/absl/numeric/int128_have_intrinsic.inc \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/abseil/absl/strings/string_view.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/abseil/absl/types/optional.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/abseil/absl/types/bad_optional_access.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/abseil/absl/types/internal/optional.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/abseil/absl/types/variant.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/abseil/absl/types/internal/variant.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/abseil/absl/types/bad_variant_access.h

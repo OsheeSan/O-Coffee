@@ -1,0 +1,54 @@
+dependencies: \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseAuth/Sources/SystemService/FIRAuthAPNSTokenManager.m \
+  /Applications/SwiftProjects/My/O-Coffee/build/Pods.build/Debug-iphoneos/FirebaseAuth.build/module.modulemap \
+  /Applications/SwiftProjects/My/O-Coffee/build/Pods.build/Debug-iphoneos/GoogleUtilities.build/module.modulemap \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/GoogleUtilities/GoogleUtilities/Reachability/Public/GoogleUtilities/GULReachabilityChecker.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/GoogleUtilities/GoogleUtilities/Network/Public/GoogleUtilities/GULNetworkURLSession.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/GoogleUtilities/GoogleUtilities/Network/Public/GoogleUtilities/GULNetworkMessageCode.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/GoogleUtilities/GoogleUtilities/Network/Public/GoogleUtilities/GULNetworkLoggerProtocol.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/GoogleUtilities/GoogleUtilities/Network/Public/GoogleUtilities/GULNetworkConstants.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/GoogleUtilities/GoogleUtilities/Network/Public/GoogleUtilities/GULNetwork.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/GoogleUtilities/GoogleUtilities/Network/Public/GoogleUtilities/GULMutableDictionary.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/GoogleUtilities/GoogleUtilities/NSData+zlib/Public/GoogleUtilities/GULNSData+zlib.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/GoogleUtilities/GoogleUtilities/Logger/Public/GoogleUtilities/GULLoggerLevel.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/GoogleUtilities/GoogleUtilities/Logger/Public/GoogleUtilities/GULLogger.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/NSURLSession+GULPromises.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULURLSessionDataResponse.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULSecureCoding.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULNetworkInfo.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULKeychainUtils.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULKeychainStorage.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULHeartbeatDateStorageUserDefaults.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULHeartbeatDateStorage.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULHeartbeatDateStorable.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULAppEnvironmentUtil.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/Public/GoogleUtilities/GULSceneDelegateSwizzler.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/Public/GoogleUtilities/GULApplication.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/Public/GoogleUtilities/GULAppDelegateSwizzler.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/Target\ Support\ Files/GoogleUtilities/GoogleUtilities-umbrella.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseCore/Extension/FirebaseCoreInternal.h \
+  /Applications/SwiftProjects/My/O-Coffee/build/Pods.build/Debug-iphoneos/FirebaseCore.build/module.modulemap \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRVersion.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIROptions.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FirebaseCore.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRLoggerLevel.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRConfiguration.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRApp.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/Target\ Support\ Files/FirebaseCore/FirebaseCore-umbrella.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseCore/Extension/FIRAppInternal.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseCore/Extension/FIRComponent.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseCore/Extension/FIRComponentContainer.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseCore/Extension/FIRComponentType.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseCore/Extension/FIRDependency.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseCore/Extension/FIRHeartbeatLogger.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseCore/Extension/FIRLibrary.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseCore/Extension/FIRLogger.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseCore/Extension/FIROptionsInternal.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseAuth/Sources/Auth/FIRAuthGlobalWorkQueue.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseAuth/Sources/Auth/FIRAuth_Internal.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseAuth/Interop/FIRAuthInterop.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuth.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthAPNSTokenType.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthErrors.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseAuth/Sources/SystemService/FIRAuthAPNSToken.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/FirebaseAuth/FirebaseAuth/Sources/SystemService/FIRAuthAPNSTokenManager.h

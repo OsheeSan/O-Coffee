@@ -1,0 +1,37 @@
+dependencies: \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/BoringSSL-GRPC/src/crypto/fipsmodule/self_check/self_check.c \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/Target\ Support\ Files/BoringSSL-GRPC/BoringSSL-GRPC-prefix.pch \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/BoringSSL-GRPC/src/include/openssl/crypto.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/BoringSSL-GRPC/src/include/openssl/base.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/BoringSSL-GRPC/src/include/openssl/is_boringssl.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/BoringSSL-GRPC/src/include/openssl/opensslconf.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/BoringSSL-GRPC/src/include/openssl/boringssl_prefix_symbols.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/BoringSSL-GRPC/src/include/openssl/sha.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/BoringSSL-GRPC/src/include/openssl/mem.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/BoringSSL-GRPC/src/include/openssl/thread.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/BoringSSL-GRPC/src/include/openssl/aead.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/BoringSSL-GRPC/src/include/openssl/aes.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/BoringSSL-GRPC/src/include/openssl/bn.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/BoringSSL-GRPC/src/include/openssl/des.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/BoringSSL-GRPC/src/include/openssl/dh.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/BoringSSL-GRPC/src/include/openssl/digest.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/BoringSSL-GRPC/src/include/openssl/ec.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/BoringSSL-GRPC/src/include/openssl/ec_key.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/BoringSSL-GRPC/src/include/openssl/engine.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/BoringSSL-GRPC/src/include/openssl/ex_data.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/BoringSSL-GRPC/src/include/openssl/stack.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/BoringSSL-GRPC/src/include/openssl/type_check.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/BoringSSL-GRPC/src/include/openssl/ecdsa.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/BoringSSL-GRPC/src/include/openssl/nid.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/BoringSSL-GRPC/src/include/openssl/rsa.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/BoringSSL-GRPC/src/crypto/fipsmodule/self_check/../../internal.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/BoringSSL-GRPC/src/crypto/fipsmodule/self_check/../ec/internal.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/BoringSSL-GRPC/src/crypto/fipsmodule/self_check/../ec/../bn/internal.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/BoringSSL-GRPC/src/crypto/fipsmodule/self_check/../ec/../bn/../../internal.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/BoringSSL-GRPC/src/crypto/fipsmodule/self_check/../ecdsa/internal.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/BoringSSL-GRPC/src/crypto/fipsmodule/self_check/../rand/internal.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/BoringSSL-GRPC/src/include/openssl/cpu.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/BoringSSL-GRPC/src/crypto/fipsmodule/self_check/../rand/../../internal.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/BoringSSL-GRPC/src/crypto/fipsmodule/self_check/../rand/../modes/internal.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/BoringSSL-GRPC/src/crypto/fipsmodule/self_check/../rand/../modes/../../internal.h \
+  /Applications/SwiftProjects/My/O-Coffee/Pods/BoringSSL-GRPC/src/crypto/fipsmodule/self_check/../tls/internal.h
