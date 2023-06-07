@@ -13,6 +13,8 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, MKMapViewD
     
     let locationManager = CLLocationManager()
     
+    var loc = 0
+    
     var cafes: [String : Cafe] = [:]
     
     @IBOutlet private var mapView: MKMapView!
@@ -31,7 +33,6 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, MKMapViewD
                 self.locationManager.delegate = self
                 self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
                 self.locationManager.startUpdatingLocation()
-                self.mapView.setRegion(MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: (self.locationManager.location?.coordinate.latitude)!, longitude: (self.locationManager.location?.coordinate.longitude)!), span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01)), animated: true)
             }
         }
     }
@@ -73,6 +74,10 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, MKMapViewD
         if let location = locations.last{
             let center = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
             let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
+            if loc == 0 {
+                self.mapView.setRegion(MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: (self.locationManager.location?.coordinate.latitude)!, longitude: (self.locationManager.location?.coordinate.longitude)!), span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01)), animated: true)
+                loc += 1
+            }
         }
     }
     

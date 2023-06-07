@@ -23,7 +23,8 @@
 		840A2FFC2A05C4D9007C54A8 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A2FFB2A05C4D9007C54A8 /* RoundedView.swift */; };
 		840A2FFE2A05C7D5007C54A8 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A2FFD2A05C7D5007C54A8 /* GradientView.swift */; };
 		840A30002A05CB88007C54A8 /* RoundedScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A2FFF2A05CB88007C54A8 /* RoundedScrollView.swift */; };
-		843D71E42A20CA2600FAB9DD /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843D71E32A20CA2600FAB9DD /* StorageManager.swift */; };
+		8439BB142A29C62D00C493C0 /* OrderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8439BB132A29C62D00C493C0 /* OrderManager.swift */; };
+		8439BB182A306D2500C493C0 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8439BB172A306D2500C493C0 /* OrderViewController.swift */; };
 		844487222A1B4F01006748E0 /* CafeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844487212A1B4F01006748E0 /* CafeViewController.swift */; };
 		844487242A1B4F0D006748E0 /* CoffeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844487232A1B4F0D006748E0 /* CoffeeViewController.swift */; };
 		844487262A1CE396006748E0 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844487252A1CE396006748E0 /* PhotoCollectionViewCell.swift */; };
@@ -60,7 +61,8 @@
 		840A2FFB2A05C4D9007C54A8 /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
 		840A2FFD2A05C7D5007C54A8 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		840A2FFF2A05CB88007C54A8 /* RoundedScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedScrollView.swift; sourceTree = "<group>"; };
-		843D71E32A20CA2600FAB9DD /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		8439BB132A29C62D00C493C0 /* OrderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderManager.swift; sourceTree = "<group>"; };
+		8439BB172A306D2500C493C0 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 		844487212A1B4F01006748E0 /* CafeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeViewController.swift; sourceTree = "<group>"; };
 		844487232A1B4F0D006748E0 /* CoffeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeViewController.swift; sourceTree = "<group>"; };
 		844487252A1CE396006748E0 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -168,7 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				849F787D2A16AA6C00A18966 /* RTDataBaseManager.swift */,
-				843D71E32A20CA2600FAB9DD /* StorageManager.swift */,
+				8439BB132A29C62D00C493C0 /* OrderManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -220,6 +222,7 @@
 				844487212A1B4F01006748E0 /* CafeViewController.swift */,
 				844487232A1B4F0D006748E0 /* CoffeeViewController.swift */,
 				8475A0642A28D11800D35FF3 /* MenuViewController.swift */,
+				8439BB172A306D2500C493C0 /* OrderViewController.swift */,
 			);
 			path = InfoPages;
 			sourceTree = "<group>";
@@ -363,8 +366,9 @@
 				840A2FFA2A05C2EF007C54A8 /* RoundedButton.swift in Sources */,
 				844487262A1CE396006748E0 /* PhotoCollectionViewCell.swift in Sources */,
 				840A2FF02A059401007C54A8 /* HomePageViewController.swift in Sources */,
-				843D71E42A20CA2600FAB9DD /* StorageManager.swift in Sources */,
 				8475A0612A28C7CD00D35FF3 /* Menu.swift in Sources */,
+				8439BB142A29C62D00C493C0 /* OrderManager.swift in Sources */,
+				8439BB182A306D2500C493C0 /* OrderViewController.swift in Sources */,
 				844487242A1B4F0D006748E0 /* CoffeeViewController.swift in Sources */,
 				8475A0652A28D11800D35FF3 /* MenuViewController.swift in Sources */,
 				840A2FD32A05936D007C54A8 /* AppDelegate.swift in Sources */,

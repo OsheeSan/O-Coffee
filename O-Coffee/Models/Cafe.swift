@@ -9,7 +9,7 @@ import Foundation
 import MapKit
 
 
-class Cafe {
+struct Cafe {
     
     var cafeId: String
     var name: String

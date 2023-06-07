@@ -19,6 +19,9 @@ class HomePageViewController: UIViewController {
     
     var menuState: State = .cafe
 
+    @IBAction func createAnOrder(_ sender: RoundedButton) {
+        print(OrderManager.shared.order)
+    }
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var segmentControl: UISegmentedControl!
     
@@ -107,12 +110,11 @@ class HomePageViewController: UIViewController {
         switch segue.identifier {
         case "coffee":
             let controller = segue.destination as! CoffeeViewController
-            controller.coffeeID = coffies[sender as! Int].coffeeId
+            controller.coffee = coffies[sender as! Int]
             print(coffies[sender as! Int].coffeeId)
             break
         case "cafe":
             let controller = segue.destination as! CafeViewController
-            controller.cafeId = cafes[sender as! Int].cafeId
             controller.cafe = cafes[sender as! Int]
             print(cafes[sender as! Int].cafeId)
             break

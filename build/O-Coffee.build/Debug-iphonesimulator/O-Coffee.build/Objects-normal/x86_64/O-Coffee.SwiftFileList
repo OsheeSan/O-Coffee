@@ -11,8 +11,9 @@
 /Applications/SwiftProjects/My/O-Coffee/O-Coffee/Views/RoundedButton.swift
 /Applications/SwiftProjects/My/O-Coffee/O-Coffee/Views/PhotoCollectionViewCell.swift
 /Applications/SwiftProjects/My/O-Coffee/O-Coffee/Controllers/MainTabBar/HomePageViewController.swift
-/Applications/SwiftProjects/My/O-Coffee/O-Coffee/Managers/StorageManager.swift
 /Applications/SwiftProjects/My/O-Coffee/O-Coffee/Models/Menu.swift
+/Applications/SwiftProjects/My/O-Coffee/O-Coffee/Managers/OrderManager.swift
+/Applications/SwiftProjects/My/O-Coffee/O-Coffee/Controllers/InfoPages/OrderViewController.swift
 /Applications/SwiftProjects/My/O-Coffee/O-Coffee/Controllers/InfoPages/CoffeeViewController.swift
 /Applications/SwiftProjects/My/O-Coffee/O-Coffee/Controllers/InfoPages/MenuViewController.swift
 /Applications/SwiftProjects/My/O-Coffee/O-Coffee/Resourses/AppDelegate.swift

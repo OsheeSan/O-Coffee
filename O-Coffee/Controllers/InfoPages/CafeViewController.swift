@@ -10,8 +10,6 @@ import FirebaseStorage
 
 class CafeViewController: UIViewController, UIScrollViewDelegate {
     
-    public var cafeId: String?
-    
     public var cafe: Cafe?
     
     private var photos: [UIImage] = []
@@ -27,18 +25,19 @@ class CafeViewController: UIViewController, UIScrollViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         loadData()
-        isClosed()
         setup()
+        isClosed()
     }
     
     @IBAction func ShowMenuTaped(_ sender: RoundedButton) {
-        print("Click")
         performSegue(withIdentifier: "menu", sender: self)
     }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         switch segue.identifier {
         case "menu":
             let controller = segue.destination as! MenuViewController
+            controller.delegate = self
             controller.cafe = cafe
             break
         default:
@@ -47,7 +46,6 @@ class CafeViewController: UIViewController, UIScrollViewDelegate {
     }
     
     private func setup(){
-        imagesPagesControl.numberOfPages = photos.count
         imagesPagesControl.isEnabled = false
         imagesCollectionView.delegate = self
         imagesCollectionView.dataSource = self
@@ -55,14 +53,15 @@ class CafeViewController: UIViewController, UIScrollViewDelegate {
         imagesCollectionView.showsHorizontalScrollIndicator = false
     }
     
+    public func showCoffee(){
+        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+        let nextViewController = storyBoard.instantiateViewController(withIdentifier: "Coffee") as! CoffeeViewController
+        self.present(nextViewController, animated:true, completion:nil)
+    }
+    
     private func isClosed(){
-        // get the current date and time
         let currentDateTime = Date()
-
-        // get the user's calendar
         let userCalendar = Calendar.current
-
-        // choose which date and time components are needed
         let requestedComponents: Set<Calendar.Component> = [
             .year,
             .month,
@@ -71,10 +70,7 @@ class CafeViewController: UIViewController, UIScrollViewDelegate {
             .minute,
             .second
         ]
-
-        // get the components
         let dateTimeComponents = userCalendar.dateComponents(requestedComponents, from: currentDateTime)
-
         switch dateTimeComponents.hour! {
         case 0...8  :
             timeLabel.text = "Closed "
@@ -91,25 +87,9 @@ class CafeViewController: UIViewController, UIScrollViewDelegate {
     }
     
     private func loadData(){
-        
-        
-        RTDataBaseManager.shared.fetchCafeData(cafeId: cafeId!, completion: { result in
-            switch result {
-            case .success(let userData):
-                
-                if let userData = userData {
-                    self.imagesPagesControl.numberOfPages = userData.imagesURL.count
-                    self.downloadImages(imagesURL: userData.imagesURL)
-                    self.nameLabel.text = userData.name
-                } else {
-                    // User data not found
-                    print("User data not found")
-                }
-            case .failure(let error):
-                // Handle error
-                print("Error fetching user data: \(error.localizedDescription)")
-            }
-        })
+        imagesPagesControl.numberOfPages = cafe!.imagesURL.count
+        downloadImages(imagesURL: cafe!.imagesURL)
+        nameLabel.text = cafe!.name
     }
     
     private func downloadImages(imagesURL: [String: String]){
@@ -119,7 +99,6 @@ class CafeViewController: UIViewController, UIScrollViewDelegate {
                 guard let data = data, error == nil else { return }
                 print(response?.suggestedFilename ?? url.lastPathComponent)
                 print("Download Finished")
-                // always update the UI from the main thread
                 DispatchQueue.main.async() { [weak self] in
                     self?.photos.append(UIImage(data: data)!)
                     self?.imagesCollectionView.reloadData()

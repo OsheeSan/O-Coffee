@@ -8,16 +8,8 @@
 import UIKit
 
 class CoffeeViewController: UIViewController, UIScrollViewDelegate {
-
-    private var coffee = "" {
-        didSet {
-            coffeeNameLabel.text = coffee
-        }
-    }
     
-    public var coffeeID = ""
-    
-    private var annotationURL = ""
+    public var coffee: Coffee?
     
     private var coffeeImage: UIImage = UIImage() {
         didSet{
@@ -30,10 +22,11 @@ class CoffeeViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var coffeeNameLabel: UILabel!
     
     @IBAction func addToOrderButtonTaped(_ sender: UIButton) {
+        
     }
     
     @IBAction func showRecepyButtonTaped(_ sender: UIButton) {
-        if let url = URL(string: annotationURL) {
+        if let url = URL(string: coffee!.annotation) {
             UIApplication.shared.open(url)
         }
     }
@@ -44,22 +37,8 @@ class CoffeeViewController: UIViewController, UIScrollViewDelegate {
     }
     
     private func loadData(){
-        RTDataBaseManager.shared.fetchCoffeeData(coffeeId: coffeeID, completion: { result in
-            switch result {
-            case .success(let coffeeData):
-                if let coffeeData = coffeeData {
-                    self.coffee = coffeeData.name
-                    self.annotationURL = coffeeData.annotation
-                    self.downloadImages(imageURL: coffeeData.imageURL)
-                } else {
-                    // User data not found
-                    print("Coffee data not found")
-                }
-            case .failure(let error):
-                // Handle error
-                print("Error fetching coffee data: \(error.localizedDescription)")
-            }
-        })
+        coffeeNameLabel.text = coffee!.name
+        downloadImages(imageURL: coffee!.imageURL)
     }
     
     private func downloadImages(imageURL: String){
@@ -68,7 +47,6 @@ class CoffeeViewController: UIViewController, UIScrollViewDelegate {
                 guard let data = data, error == nil else { return }
                 print(response?.suggestedFilename ?? url.lastPathComponent)
                 print("Download Finished")
-                // always update the UI from the main thread
                 DispatchQueue.main.async() { [weak self] in
                     self?.coffeeImage = (UIImage(data: data)!)
                 }
